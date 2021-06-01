@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container">
+        <div class="navbar">
+            <div class="spa">
+                <hr>
+                <hr>
+                <hr>
+            </div>
+            <input type="text" placeholder="Search...">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <div class="video">
+            <video id="video" src="video1.mp4"></video>
+
+            <div class="wrapper">
+                <div class="controls">
+                    <div class="line">
+                        <div class="video-line">
+        
+                            <div class="video-watch">
+                                <span class="video-glo"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="buttons">
+                        <button id="play-pause"></button>
+                        <i class="fas fa-step-forward" id="next"></i>
+                        <i class="fas fa-volume-up sound" id="sound"></i>
+                        <input type="range" class="valume" min="0" max="1" step="0.01" value="1">
+                        <span class="current">0:00 </span> / <span class="duration"> 0:00</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="details">
+            <span class="teg">#freelancernasim #freelancing #tutorial</span>
+            <p>017 | Array & Basic Methods | The Modern JavaScript Tutorial</p>
+        </div>
+    </div>
+<script src="app.js"></script>
+</body>
+</html>
