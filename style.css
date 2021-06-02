@@ -47,8 +47,8 @@ hr {
 
 input[type="text"] {
     position: absolute;
-    left: 306px;
-    width: 550px;
+    left: 15vw;
+    width: 35vw;
     height: 34px;
     outline: none;
     padding: 0px 8px;
